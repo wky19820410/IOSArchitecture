@@ -5,7 +5,9 @@
 //  Created by wky on 16/3/20.
 //  Copyright © 2016年 wky. All rights reserved.
 //
-
+/*
+ * 展现器的作用：从交互器获得的数据，进行view显示前的逻辑修改，负责view展现前的逻辑修改
+ */
 #import "VIPER_presenter.h"
 #import "VIPER_interactor.h"
 #import "VIPER_VIEW_iewController.h"
@@ -40,7 +42,7 @@
     [self.interactor increaseOperation];
 }
 - (void)increaseEnd:(NSInteger)i{
-    [self.view update:[NSString stringWithFormat:@"%ld",i]];
+    [self.view update:[NSString stringWithFormat:@"减1结果：%ld",i]];
     [self.view showLoading:NO];
 }
 
@@ -49,7 +51,7 @@
     [self.interactor addOperation];
 }
 - (void)addEnd:(NSInteger)i{
-    [self.view update:[NSString stringWithFormat:@"%ld",i]];
+    [self.view update:[NSString stringWithFormat:@"加一的结果：%ld",i]];
 }
 
 //控制路由器，进行导航操作

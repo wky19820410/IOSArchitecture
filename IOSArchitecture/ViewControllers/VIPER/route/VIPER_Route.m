@@ -6,6 +6,11 @@
 //  Copyright © 2016年 wky. All rights reserved.
 //
 
+/*
+ *路由器：当前view的导航，比如：返回，下一步等操作
+ */
+
+
 #import "VIPER_Route.h"
 #import <UIKit/UIKit.h>
 #import "VCOne.h"

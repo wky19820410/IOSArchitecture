@@ -5,6 +5,9 @@
 //  Created by wky on 16/3/20.
 //  Copyright © 2016年 wky. All rights reserved.
 //
+/*
+ *交互器：主要负责，业务逻辑的处理，数据实体的读写操作
+ */
 
 #import "VIPER_interactor.h"
 #import "VIPER_entity.h"

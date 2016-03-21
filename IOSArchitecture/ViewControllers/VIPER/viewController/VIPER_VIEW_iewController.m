@@ -98,7 +98,7 @@
     
     self.navigationItem.rightBarButtonItems = @[barItemRightSpace, barButtonRight];
     
-    self.navigationItem.title = @"viper设计demo";
+    self.navigationItem.title = @"计算模块";
 }
 
 #pragma mark navigation action

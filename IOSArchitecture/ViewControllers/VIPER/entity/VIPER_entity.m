@@ -6,6 +6,10 @@
 //  Copyright © 2016年 wky. All rights reserved.
 //
 
+/*
+ *数据实体：就是个数据结构
+ */
+
 #import "VIPER_entity.h"
 
 @implementation VIPER_entity
